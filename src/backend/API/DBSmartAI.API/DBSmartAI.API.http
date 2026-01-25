@@ -1,0 +1,6 @@
+@DBSmartAI.API_HostAddress = http://localhost:5101
+
+GET {{DBSmartAI.API_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###

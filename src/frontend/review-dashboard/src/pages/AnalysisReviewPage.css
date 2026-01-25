@@ -1,0 +1,9 @@
+.analysis-review-page {
+  width: 100%;
+  max-width: 1400px;
+  margin: 0 auto;
+}
+
+.analysis-review-page h2 {
+  margin-bottom: 0;
+}
