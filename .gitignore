@@ -190,3 +190,12 @@ secrets.json
 
 # Keep template files
 !**/*.template.*
+
+# Data files - Zendesk tickets (may contain sensitive customer data)
+data/
+!data/.gitkeep
+
+# Scripts with hardcoded API tokens and credentials
+scripts/
+!scripts/.gitkeep
+!scripts/README.md
